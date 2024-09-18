@@ -15,5 +15,5 @@ LLM_APIKEY = os.environ.get("LLM_APIKEY")
 pc = Pinecone(api_key=PINECONE_APIKEY)
 
 
-llm = ChatMistralAI(api_key=SecretStr(str(LLM_APIKEY)))
+llm = ChatMistralAI(api_key=SecretStr(str(LLM_APIKEY)),model_name="mistral-large-latest")
 
