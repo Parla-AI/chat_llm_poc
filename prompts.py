@@ -85,6 +85,7 @@ Objetivo:
 Identificar las Divisas en la Pregunta:
 Usa la información proporcionada en {contexto} para identificar los códigos ISO 4217 y el monto mencionado en la pregunta del usuario.
 Analiza {pregunta} para determinar solo cuál es la divisa base y cuál es la divisa destino, ten en cuenta que si el valor no está en la pregunta agregalo como null.
+Si no te proporcionan la divisa a convertir elige por defecto cop
 solo responde con los Códigos de Divisa:
 
 solo responde con los códigos ISO 4217 de las divisas mencionadas en la pregunta en el formato especificado:
